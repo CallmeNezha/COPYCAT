@@ -1,0 +1,6 @@
+#ifndef KOBAYAXI_MACROS_H_HEADER_GUARD
+#define KOBAYAXI_MACROS_H_HEADER_GUARD
+
+#define KOBAYAXI_NO_VTABLE __declspec(novtable)
+
+#endif
