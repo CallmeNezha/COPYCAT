@@ -1,1 +1,9 @@
-#include "kobayaxi/kobayaxi.h"
+#include "kobayaxi_private.h"
+
+namespace KOBAYAXI
+{
+
+
+
+
+}

@@ -4,7 +4,7 @@ if( NOT KANNA_DIR )
 endif()
 
 # Grab the source files
-file( GLOB KANNA_SOURCES ${KANNA_DIR}/src/*.cpp )
+file( GLOB KANNA_SOURCES ${KANNA_DIR}/src/*.cpp ${KANNA_DIR}/src/*.h )
 
 # Create the target
 add_library( KANNA STATIC ${KANNA_SOURCES} )

@@ -15,6 +15,9 @@ public:
         Args args = Args(_argc, _argv);
 
         KOBAYAXI_TRACE("bs");
+        float* ptr[5];
+        char bbgb[KOBAYAXI_COUNTOF(ptr)];
+        KOBAYAXI_TRACE("%d", KOBAYAXI_COUNTOF(bbgb));
 
         m_width = 1280;
         m_height = 720;

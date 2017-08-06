@@ -5,7 +5,7 @@ endif()
 
 
 # Grab the source files
-file( GLOB KOBAYAXI_SOURCES ${KOBAYAXI_DIR}/src/*.cpp )
+file( GLOB KOBAYAXI_SOURCES ${KOBAYAXI_DIR}/src/*.cpp ${KOBAYAXI_DIR}/src/*.h )
 
 # Create the target
 add_library( KOBAYAXI STATIC ${KOBAYAXI_SOURCES} )
